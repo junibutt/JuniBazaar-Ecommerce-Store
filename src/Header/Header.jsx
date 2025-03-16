@@ -4,7 +4,9 @@ import { CiShoppingCart } from "react-icons/ci";
 import { RxCross2 } from "react-icons/rx";
 import { GiHamburgerMenu } from "react-icons/gi";
 import banner from "../assets/banner-new.jpg";
-import Cards from "../cards";
+
+
+
 
 const navItems = [
   { href: "#home", label: "Home" },
@@ -126,9 +128,7 @@ const Header = () => {
         ></img>
       </div>
 
-      <div>
-        <Cards />
-      </div>
+      
     </div>
   );
 };
