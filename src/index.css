@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+@theme{
+  /* --breakpoint-*:initial;
+  --breakpoint-sm:480px;
+  --breakpoint-md:768px;
+  --breakpoint-lg:976px; */
+  --color-royalblue:#148f77;
+  --color-red:#E2725B;
+  --color-whitee:#F5F5DC;
+  --color-teal:#6B9797
+}
+
+html{
+  scroll-behavior: smooth;
+}
