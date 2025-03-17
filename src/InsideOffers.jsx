@@ -10,10 +10,8 @@ import wallart from "./assets/wallart.jpg"
 const InsideOffers = () => {
   return (
     <div className="container mx-auto my-8">
-      {/* Flexbox layout with alternating direction */}
       <div className="space-y-8">
-        {/* First item: Left aligned */}
-        <div className="ml-2 flex items-center justify-start space-x-4 border-teal-500 border-2 rounded-md max-w-[26rem] md:max-w-[28rem] lg:max-w-[35rem] md:ml-5 lg:ml-14">
+        <div className="mx-auto flex items-center justify-start space-x-4 border-teal-500 border-2 rounded-md max-w-[26rem] md:max-w-[28rem] lg:max-w-[35rem] md:ml-5 lg:ml-14">
           <img
             src={earbuds}
             alt="Wireless Earbuds"
@@ -37,8 +35,7 @@ const InsideOffers = () => {
           </div>
         </div>
 
-        {/* Second item: Right aligned (Card aligned to the right side of the screen) */}
-        <div className="ml-auto flex items-center justify-start space-x-4 border-teal-500 border-2 rounded-md max-w-[26rem] md:max-w-[28rem] lg:max-w-[35rem]  mr-2 md:mr-5 lg:mr-14">
+        <div className="mx-auto flex items-center justify-start space-x-4 border-teal-500 border-2 rounded-md max-w-[26rem] md:max-w-[28rem] lg:max-w-[35rem]  md:mr-5 lg:mr-14">
           <img
             src={toaster}
             alt="Electronic Toaster"
@@ -46,8 +43,8 @@ const InsideOffers = () => {
           />
           <div>
             <h1 className="font-bold text-2xl pb-2 text-teal-500 flex items-center space-x-2">
-              <span>Electronic Toaster</span>
-              {/* Small cart icon */}
+              <span>Hot Toaster</span>
+            
               <FaCartPlus className="text-teal-500 text-lg lg:text-2xl ml-4 cursor-pointer hover:text-teal-600" />
             </h1>
             <p className="text-gray-600 lg:text-lg">
@@ -65,7 +62,7 @@ const InsideOffers = () => {
 
 
 
-        <div className="ml-2 flex items-center justify-start space-x-4 border-teal-500 border-2 rounded-md max-w-[26rem] md:max-w-[28rem] lg:max-w-[35rem] md:ml-5 lg:ml-14">
+        <div className="mx-auto flex items-center justify-start space-x-4 border-teal-500 border-2 rounded-md max-w-[26rem] md:max-w-[28rem] lg:max-w-[35rem] md:ml-5 lg:ml-14">
           <img
             src={lamp}
             alt="Lamp"
@@ -74,7 +71,7 @@ const InsideOffers = () => {
           <div>
             <h1 className="font-bold text-2xl pb-2 text-teal-500 flex items-center space-x-2">
               <span>Aesthetic Lamp</span>
-              {/* Small cart icon */}
+        
               <FaCartPlus className="text-teal-500 text-lg lg:text-2xl ml-4 cursor-pointer hover:text-teal-600" />
             </h1>
             <p className="text-gray-600 lg:text-lg">
@@ -89,8 +86,8 @@ const InsideOffers = () => {
           </div>
         </div>
 
-        {/* Second item: Right aligned (Card aligned to the right side of the screen) */}
-        <div className="ml-auto flex items-center justify-start space-x-4 border-teal-500 border-2 rounded-md max-w-[26rem] md:max-w-[28rem] lg:max-w-[35rem] mr-2 md:mr-5 lg:mr-14">
+       
+        <div className="mx-auto flex items-center justify-start space-x-4 border-teal-500 border-2 rounded-md max-w-[26rem] md:max-w-[28rem] lg:max-w-[35rem] md:mr-5 lg:mr-14">
           <img
             src={racket}
             alt="Racket"
@@ -99,7 +96,7 @@ const InsideOffers = () => {
           <div>
             <h1 className="font-bold text-2xl pb-2 text-teal-500 flex items-center space-x-2">
               <span>2X Racket</span>
-              {/* Small cart icon */}
+             
               <FaCartPlus className="text-teal-500 text-lg lg:text-2xl ml-4 cursor-pointer hover:text-teal-600" />
             </h1>
             <p className="text-gray-600 lg:text-lg">
@@ -114,8 +111,8 @@ const InsideOffers = () => {
           </div>
         </div>
 
-        {/* Third item: Left aligned */}
-        <div className="ml-2 flex items-center justify-start space-x-4 border-teal-500 border-2 rounded-md max-w-[26rem] md:max-w-[28rem] lg:max-w-[35rem] md:ml-5 lg:ml-14">
+       
+        <div className="mx-auto flex items-center justify-start space-x-4 border-teal-500 border-2 rounded-md max-w-[26rem] md:max-w-[28rem] lg:max-w-[35rem] md:ml-5 lg:ml-14">
           <img
             src={wallart}
             alt="Wall Art"
@@ -124,7 +121,7 @@ const InsideOffers = () => {
           <div>
             <h1 className="font-bold text-2xl pb-2 text-teal-500 flex items-center space-x-2">
               <span>Wall Art</span>
-              {/* Small cart icon */}
+          
               <FaCartPlus className="text-teal-500 text-lg lg:text-2xl ml-4 cursor-pointer hover:text-teal-600" />
             </h1>
             <p className="text-gray-600 lg:text-lg">
@@ -139,8 +136,8 @@ const InsideOffers = () => {
           </div>
         </div>
 
-        {/* Fourth item: Right aligned */}
-        <div className="ml-auto flex items-center justify-start space-x-4 border-teal-500 border-2 rounded-md max-w-[26rem] md:max-w-[28rem] lg:max-w-[35rem] mr-2 md:mr-5 lg:mr-14">
+        
+        <div className="mx-auto flex items-center justify-start space-x-4 border-teal-500 border-2 rounded-md max-w-[26rem] md:max-w-[28rem] lg:max-w-[35rem]  md:mr-5 lg:mr-14">
           <img
             src={beachchair}
             alt="Beach Chair"
@@ -149,7 +146,7 @@ const InsideOffers = () => {
           <div>
             <h1 className="font-bold text-2xl pb-2 text-teal-500 flex items-center space-x-2">
               <span>Beach Chair</span>
-              {/* Small cart icon */}
+            
               <FaCartPlus className="text-teal-500 text-lg lg:text-2xl ml-4 cursor-pointer hover:text-teal-600" />
             </h1>
             <p className="text-gray-600 lg:text-lg">
