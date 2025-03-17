@@ -7,7 +7,8 @@ import Items from "./Items";
 import Offers from "./Offers";
 import AboutUs from "./AboutUs";
 import Footer from "./Footer";
-import Cards from "./cards";
+import CardsSection from "./CardsSection";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,9 +19,8 @@ function App() {
         <Header />
       </nav>
       <main>
-        <Cards />
+        <CardsSection/>
         <Items />
-
         <Offers />
         <AboutUs />
         <hr className="text-gray-800 font-bold pb-3" />
