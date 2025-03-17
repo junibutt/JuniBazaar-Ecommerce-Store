@@ -20,7 +20,7 @@ const InsideOffers = () => {
           <div>
             <h1 className="font-bold text-2xl  pb-2 text-teal-500 flex items-center space-x-2">
               <span>Wireless Earbuds</span>
-              {/* Small cart icon */}
+              
               <FaCartPlus className="text-teal-500 text-lg lg:text-2xl ml-4 cursor-pointer hover:text-teal-600" />
             </h1>
             <p className="text-gray-600 lg:text-lg">
@@ -39,7 +39,7 @@ const InsideOffers = () => {
           <img
             src={toaster}
             alt="Electronic Toaster"
-            className="object-cover w-35 h-38 rounded-md md:w-40 md:h-40"
+            className="object-cover w-35 h-35 rounded-md md:w-40 md:h-40"
           />
           <div>
             <h1 className="font-bold text-2xl pb-2 text-teal-500 flex items-center space-x-2">

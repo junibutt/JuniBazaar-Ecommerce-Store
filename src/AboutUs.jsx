@@ -1,6 +1,6 @@
 import React from "react";
 import webpic from "./assets/webpic.jpg";
-import certify from "./assets/certified.jpg";
+import certify from "./assets/certified.png";
 import social from "./assets/socialmedia.jpg";
 const AboutUs = () => {
   return (
@@ -27,7 +27,7 @@ const AboutUs = () => {
             </p>
           </div>
           <div className="flex items-center justify-center border-2 h-60 md:h-70">
-            <img className="w-full h-full object-contain" src={certify} alt="certified" />
+            <img className="w-full h-full object-cover" src={certify} alt="certified" />
           </div>
         </div>
 
@@ -38,7 +38,7 @@ const AboutUs = () => {
           </div>
           <div className="flex items-center justify-center border-2 bg-green-200 text-wrap px-2 italic">
             <p className="md:text-xl md:py-2 md:leading-loose">
-            Stay connected with us on social media for the latest updates, exclusive offers, and behind-the-scenes content. Follow us on Instagram, Facebook, and Twitter. Join our community of Junibazar!
+            Stay connected with us on social media for the latest updates behind-the-scenes content. Follow us on Instagram, Facebook, and Twitter. Join our community of Junibazar!
             </p>
           </div>
         </div>
