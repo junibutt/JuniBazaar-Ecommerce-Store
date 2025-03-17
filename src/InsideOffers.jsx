@@ -9,7 +9,7 @@ import wallart from "./assets/wallart.jpg"
 
 const InsideOffers = () => {
   return (
-    <div className="container mx-auto my-8">
+    <div className="container mx-auto my-8 px-4">
       <div className="space-y-8">
         <div className="mx-auto flex items-center justify-start space-x-4 border-teal-500 border-2 rounded-md max-w-[26rem] md:max-w-[28rem] lg:max-w-[35rem] md:ml-5 lg:ml-14">
           <img
@@ -39,7 +39,7 @@ const InsideOffers = () => {
           <img
             src={toaster}
             alt="Electronic Toaster"
-            className="object-cover w-35 h-35 rounded-md md:w-40 md:h-40"
+            className="object-cover w-35 h-37 rounded-md md:w-40 md:h-40"
           />
           <div>
             <h1 className="font-bold text-2xl pb-2 text-teal-500 flex items-center space-x-2">
@@ -66,7 +66,7 @@ const InsideOffers = () => {
           <img
             src={lamp}
             alt="Lamp"
-            className="object-cover w-35 h-35 rounded-md md:w-40 md:h-40"
+            className="object-cover w-70 h-35 rounded-md md:w-77 md:h-40"
           />
           <div>
             <h1 className="font-bold text-2xl pb-2 text-teal-500 flex items-center space-x-2">
