@@ -23,7 +23,7 @@ const AboutUs = () => {
         <div className="grid grid-cols-2 gap-0 p-0 m-0 w-full">
           <div className="flex items-center justify-center border-2 bg-blue-200 text-wrap px-2 italic">
             <p className="md:text-xl md:py-2 md:leading-loose">
-              Our e-commerce platform is fully certified, ensuring secure transactions, reliable customer service. We prioritize customer satisfaction and adhere to industry standards.
+              Our e-commerce platform is fully certified, ensuring secure transactions. We prioritize customer satisfaction and adhere to industry standards.
             </p>
           </div>
           <div className="flex items-center justify-center border-2 h-60 md:h-70">

@@ -14,7 +14,7 @@ const InsideOffers = () => {
         <div className="mx-auto flex items-center justify-start space-x-4 border-teal-500 border-2 rounded-md max-w-[26rem] md:max-w-[28rem] lg:max-w-[35rem] md:ml-5 lg:ml-14">
           <img
             src={earbuds}
-            alt="Wireless Earbuds"
+            alt="Earbuds"
             className="object-cover w-35 h-35 rounded-md md:w-40 md:h-40"
           />
           <div>
@@ -24,7 +24,7 @@ const InsideOffers = () => {
               <FaCartPlus className="text-teal-500 text-lg lg:text-2xl ml-4 cursor-pointer hover:text-teal-600" />
             </h1>
             <p className="text-gray-600 lg:text-lg">
-              Active Noise Cancellation, Spatial Audio, 30-hour Battery Life
+              Noise Cancellation, Spatial Audio,30-hour Battery
             </p>
             <div className="flex justify-between mt-4">
               <div className="text-gray-500 text-sm lg:text-base">
@@ -75,7 +75,7 @@ const InsideOffers = () => {
               <FaCartPlus className="text-teal-500 text-lg lg:text-2xl ml-4 cursor-pointer hover:text-teal-600" />
             </h1>
             <p className="text-gray-600 lg:text-lg">
-            The aesthetic lamp features a stylish design, soft lighting, and elegance.
+            The aesthetic lamp features a stylish design, soft lighting.
             </p>
             <div className="flex justify-between mt-4">
               <div className="text-gray-500 text-sm lg:text-base">
@@ -125,7 +125,7 @@ const InsideOffers = () => {
               <FaCartPlus className="text-teal-500 text-lg lg:text-2xl ml-4 cursor-pointer hover:text-teal-600" />
             </h1>
             <p className="text-gray-600 lg:text-lg">
-            The wall art enhances your space with vibrant colors and style.
+            The wall art enhances your space with vibrant colors.
             </p>
             <div className="flex justify-between mt-4">
               <div className="text-gray-500 text-sm lg:text-base">
