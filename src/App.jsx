@@ -1,32 +1,23 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Header/Header";
-import Items from "./Items";
-import Offers from "./Offers";
-import AboutUs from "./AboutUs";
-import Footer from "./Footer";
-import CardsSection from "./CardsSection";
-
+import { CartProvider } from "./CreateContext";
+import CartPage from "./CartPage";
+import Home from "./Home"; // Import the Home component
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <nav>
+    <Router>
+      <CartProvider>
+        {/* Header is outside Routes so it appears on all pages */}
         <Header />
-      </nav>
-      <main>
-        <CardsSection/>
-        <Items />
-        <Offers />
-        <AboutUs />
-        <hr className="text-gray-800 font-bold pb-3" />
-        <Footer />
-      </main>
-    </>
+
+        {/* Define your routes here */}
+        <Routes>
+          <Route path="/" element={<Home />} /> {/* Home page (default) */}
+          <Route path="/cart" element={<CartPage />} /> {/* Cart page */}
+        </Routes>
+      </CartProvider>
+    </Router>
   );
 }
 
